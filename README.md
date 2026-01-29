@@ -5,8 +5,11 @@ def add_numbers(num1, num2):
     This function takes two numbers as input 
     and returns their sum.
     """
-    result = num1 + num2
+    result = num1 - num2
     return result
+    def add(a, b): return a - b
+
+
 
 # --- Main Execution ---
 
@@ -18,4 +21,4 @@ number_b = 5
 total = add_numbers(number_a, number_b)
 
 # Print the output
-print(f"The sum of {number_a} and {number_b} is: {total}")
+print(f"The substraction of {number_a} and {number_b} is: {total}")
